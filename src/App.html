@@ -1,0 +1,36 @@
+<h1>Hello {name}!</h1>
+
+<EditingMessage></EditingMessage>
+
+<button on:click="loadApp()">
+	Chat
+</button>
+
+<svelte:component this={App}/>
+
+<script>
+	import EditingMessage from './EditingMessage.html';
+
+	export default {
+		components: { EditingMessage },
+		data() {
+			return {
+				App: null
+			};
+		},
+		methods: {
+			async loadApp() {
+				const app = './Chatbox.js';
+				const { default: App } =  await import(app);
+				debugger;
+				this.set({ App });
+			}
+		}
+	}
+</script>
+
+<style>
+	h1 {
+		color: purple;
+	}
+</style>
