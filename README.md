@@ -1,17 +1,17 @@
-# Dynamic Component Load Example in Svelte
+# Dynamic Runtime Component Import Example in Svelte
 
-This is a project template for [Svelte] showcasing dinamically component loading at runtime.
+This is a project template for [Svelte] showcasing dynamically component loading at runtime.
 
-The real thing here is that the sample component is not bundled at buildtime, but can be added at a post build/deployment time.
+The real thing here is that the sample component is not bundled at buildtime, but is added at a post build/deployment time.
 
-The author of implementation is Rich Harris and his answer to the question about loading components dynamically at runtime in Svelte was posted on Stack Overflow:
+The author of implementation is Rich Harris and his answer to a question about loading components dynamically at runtime in Svelte was posted on Stack Overflow:
 
 Is it possible to dynamically load a Svelte template at runtime?
 https://stackoverflow.com/a/50300657/778863
 
 ## Technical Details
 
-The Chatbox is a simple Svelte component precompiled as ESM. Below you can see the required Rollup configuration:
+The Chatbox.js is a simple Svelte component precompiled as ESM. Below you can see the required Rollup configuration:
 
 ```javascript
 {
