@@ -1,4 +1,4 @@
-# Dynamic Runtime Component Import Example in Svelte
+# Dynamic Runtime Component Import in Svelte
 
 This is a project template for [Svelte] showcasing dynamically component loading at runtime.
 
