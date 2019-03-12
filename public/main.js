@@ -284,10 +284,10 @@ var app = (function () {
 	}
 	var methods = {
 		async loadApp() {
-			const app = 'Chatbox/Chatbox.js';
+			const app = 'App/App.js';
 			const { default: App } =  await import(`./apps/${app}`);
 			this.set({ App });
-			App.prototype.helloWorld();
+			//App.prototype.helloWorld();
 		}
 	};
 

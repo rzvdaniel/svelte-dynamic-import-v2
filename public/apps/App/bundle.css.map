@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "bundle.css",
+  "sources": [
+    "..\\src\\App.html"
+  ],
+  "sourcesContent": [
+    "<h1>Hello App!</h1>\r\n\r\n<Component></Component>\r\n\r\n<script>\r\n\timport Component from './Component.html';\r\n\r\n\texport default {\r\n\t\tcomponents: { Component }\r\n\t}\r\n</script>\r\n\r\n<style>\r\n\th1 {\r\n\t\tcolor: purple;\r\n\t}\r\n</style>"
+  ],
+  "names": [],
+  "mappings": "AAaC,EAAE,cAAC,CAAC,AACH,KAAK,CAAE,MAAM,AACd,CAAC"
+}
