@@ -1,4 +1,4 @@
-# Dynamic Runtime Component Import in Svelte
+# Dynamic Runtime Component Import in Svelte v2
 
 This is a project template for [Svelte] showcasing dynamically component loading at runtime.
 
@@ -30,7 +30,7 @@ The Chatbox.js is a simple Svelte component precompiled as ESM. Below you can se
 Clone the repository
 
 ```bash
-git clone https://github.com/rzvdaniel/svelte-dynamic-import.git
+git clone https://github.com/rzvdaniel/svelte-dynamic-import-v2.git
 ```
 
 Install the dependencies...
