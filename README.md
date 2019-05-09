@@ -36,7 +36,7 @@ git clone https://github.com/rzvdaniel/svelte-dynamic-import-v2.git
 Install the dependencies...
 
 ```bash
-cd svelte-dynamic-import
+cd svelte-dynamic-import-v2
 npm install
 ```
 
